@@ -21,15 +21,19 @@
   --border-strong: rgba(56, 189, 248, 0.45);
   --border-silver: rgba(226, 232, 240, 0.34);
 
-  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-mono: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   --container-max: 1240px;
   --header-height: 76px;
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
+}
+
+html[lang="kk"] {
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 *,
@@ -227,7 +231,7 @@ p, li {
   display: inline-flex;
   align-items: center;
   line-height: 1;
-  font-family: var(--font-display);
+  font-family: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 800;
   font-size: 1.48rem;
   letter-spacing: -0.02em;
@@ -2059,6 +2063,24 @@ p, li {
   .service-modal__cols,
   .site-footer__grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-card__actions {
+    flex-direction: column;
+  }
+
+  .service-card__actions .btn {
+    flex: 1 1 auto;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .authority-badge,
+  .hero-slide-caption,
+  .service-card__tags li,
+  .chip {
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   .section {
