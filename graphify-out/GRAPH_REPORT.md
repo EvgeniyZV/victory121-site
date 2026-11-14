@@ -1,12 +1,19 @@
 # Graph Report - сайт  (2026-11-14)
 
 ## Corpus Check
-- Corpus is ~11,257 words - fits in a single context window. You may not need a graph.
+- 2 files · ~11,270 words
+- Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 6 file(s) not represented in the graph (top: (none) 5, .css 1)
 
 ## Summary
 - 43 nodes · 69 edges · 7 communities (6 shown, 1 thin omitted)
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.89)
 - Token cost: 4,200 input · 1,850 output
+
+## Graph Freshness
+- Built from commit: `6be0a97c`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Authorized Vendor Brands & SVG Plaques
@@ -26,8 +33,8 @@
 6. `applyLanguage()` - 5 edges
 7. `populateServiceModal()` - 5 edges
 8. `Sticky Header & Victory 121 Logo (#top)` - 4 edges
-9. `.htaccess HTTP Security Headers (HSTS, CSP, X-Frame-Options)` - 4 edges
-10. `README.md (Project Documentation & Runbook)` - 4 edges
+9. `README.md (Project Documentation & Runbook)` - 4 edges
+10. `.htaccess HTTP Security Headers (HSTS, CSP, X-Frame-Options)` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Authorized 8 Brands Grid (#brands)` --references--> `Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)`  [EXTRACTED]
@@ -76,7 +83,7 @@ Cohesion: 0.50
 Nodes (4): populateServiceModal(), Service Catalog & Symptoms SERVICE_DETAILS, Service Details Modal (<dialog #service-modal>), 6 Repair Services Bento Grid (#services)
 
 ## Knowledge Gaps
-- **12 isolated node(s):** `Mobile Navigation Drawer (<dialog #mobile-drawer>)`, `About Victory 121 & Engineering Standards (#about)`, `Responsive Breakpoints (1080px Tablet / 720px Mobile)`, `Victory 121 3D Globe Emblem (victory-globe.png)`, `Canon Official Red Vector Logo (canon.svg)` (+7 more)
+- **12 isolated node(s):** `Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)`, `Canon Official Red Vector Logo (canon.svg)`, `Epson Official Blue Vector Logo (epson.svg)`, `Катюша Cropped Official Logo (katusha.png)`, `Kyocera Official Red Mark + Wordmark (kyocera.svg)` (+7 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 14 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -85,7 +92,7 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `index.html (Main Page Markup)` connect `Security Hardening (CSP, HSTS & XSS Guard)` to `Authorized Vendor Brands & SVG Plaques`, `Theme 3 Titanium Slate Design System`, `Hero Circuit Animation & Equipment Carousel`, `WhatsApp Diagnostic Calculator & State`, `Core Page Markup & UI Module 5`?**
   _High betweenness centrality (0.520) - this node is a cross-community bridge._
-- **What connects `Mobile Navigation Drawer (<dialog #mobile-drawer>)`, `About Victory 121 & Engineering Standards (#about)`, `Responsive Breakpoints (1080px Tablet / 720px Mobile)` to the rest of the system?**
+- **What connects `Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)`, `Canon Official Red Vector Logo (canon.svg)`, `Epson Official Blue Vector Logo (epson.svg)` to the rest of the system?**
   _12 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Why does `Authorized 8 Brands Grid (#brands)` connect `Authorized Vendor Brands & SVG Plaques` to `Theme 3 Titanium Slate Design System`, `Security Hardening (CSP, HSTS & XSS Guard)`?**
   _High betweenness centrality (0.369) - this node is a cross-community bridge._

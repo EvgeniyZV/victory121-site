@@ -961,6 +961,7 @@ p, li {
   background: transparent;
   border: none;
   text-align: left;
+  text-decoration: none;
   padding: 18px 18px 14px;
   cursor: pointer;
   color: inherit;

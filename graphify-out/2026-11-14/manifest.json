@@ -1,0 +1,74 @@
+{
+  "app.js": {
+    "mtime": 1794678787.3615212,
+    "seen": 1794679088.7482345,
+    "ast_hash": "f31d15d08437edb18ff09984995de713",
+    "semantic_hash": "f31d15d08437edb18ff09984995de713"
+  },
+  "README.md": {
+    "mtime": 1794678944.3745472,
+    "seen": 1794679088.7482345,
+    "ast_hash": "bb7fef212af19f50dbdbf5edc13e97da",
+    "semantic_hash": "bb7fef212af19f50dbdbf5edc13e97da"
+  },
+  "index.html": {
+    "mtime": 1794678738.8504355,
+    "seen": 1794679088.7482345,
+    "ast_hash": "7c71b373b0991200de1249689553e951",
+    "semantic_hash": "7c71b373b0991200de1249689553e951"
+  },
+  "assets/brands/bang-olufsen.svg": {
+    "mtime": 1794677587.3802147,
+    "seen": 1794679088.7482345,
+    "ast_hash": "e6c6c61941d53be709dc3feb0f00ee86",
+    "semantic_hash": "e6c6c61941d53be709dc3feb0f00ee86"
+  },
+  "assets/brands/canon.svg": {
+    "mtime": 1794677465.2116613,
+    "seen": 1794679088.7482345,
+    "ast_hash": "ac4192949973213900434949ec217699",
+    "semantic_hash": "ac4192949973213900434949ec217699"
+  },
+  "assets/brands/epson.svg": {
+    "mtime": 1794677465.21266,
+    "seen": 1794679088.7482345,
+    "ast_hash": "1c109dd5c50cae65dfc96e7ba02bce0f",
+    "semantic_hash": "1c109dd5c50cae65dfc96e7ba02bce0f"
+  },
+  "assets/brands/katusha.png": {
+    "mtime": 1794677410.4382615,
+    "seen": 1794679088.7482345,
+    "ast_hash": "36f5cf2e19dcd5f9002b11d68ee8d917",
+    "semantic_hash": "36f5cf2e19dcd5f9002b11d68ee8d917"
+  },
+  "assets/brands/kyocera.svg": {
+    "mtime": 1794677465.221655,
+    "seen": 1794679088.7482345,
+    "ast_hash": "1fee6c86509ec16573a75e8a8cfae838",
+    "semantic_hash": "1fee6c86509ec16573a75e8a8cfae838"
+  },
+  "assets/brands/nikon.svg": {
+    "mtime": 1794677465.2156603,
+    "seen": 1794679088.7482345,
+    "ast_hash": "8c7c0c2697caa0525116304aca7b8d0f",
+    "semantic_hash": "8c7c0c2697caa0525116304aca7b8d0f"
+  },
+  "assets/brands/samsung.svg": {
+    "mtime": 1794677465.216658,
+    "seen": 1794679088.7482345,
+    "ast_hash": "3284a1e3b2d66dfb2cb908c8ee3a8d8d",
+    "semantic_hash": "3284a1e3b2d66dfb2cb908c8ee3a8d8d"
+  },
+  "assets/brands/sony.svg": {
+    "mtime": 1794677465.2146602,
+    "seen": 1794679088.7482345,
+    "ast_hash": "3fc702c15fcde96c8c0b15f547eb57f1",
+    "semantic_hash": "3fc702c15fcde96c8c0b15f547eb57f1"
+  },
+  "assets/victory-globe.png": {
+    "mtime": 1794677408.9611444,
+    "seen": 1794679088.7482345,
+    "ast_hash": "51d58af5090ce7bcdb74230bb8d5ba1c",
+    "semantic_hash": "51d58af5090ce7bcdb74230bb8d5ba1c"
+  }
+}

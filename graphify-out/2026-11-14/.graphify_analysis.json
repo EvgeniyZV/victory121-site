@@ -1,0 +1,201 @@
+{
+  "communities": {
+    "0": [
+      "app_syncbrandui",
+      "assets_brands_bo",
+      "assets_brands_canon",
+      "assets_brands_epson",
+      "assets_brands_katusha",
+      "assets_brands_kyocera",
+      "assets_brands_nikon",
+      "assets_brands_samsung",
+      "assets_brands_sony",
+      "index_brands_section"
+    ],
+    "1": [
+      "assets_victory_globe",
+      "index_hero_section",
+      "index_site_header",
+      "styles_circuit_anim",
+      "styles_css",
+      "styles_responsive_grid",
+      "styles_theme3_tokens",
+      "styles_v121_logo",
+      "styles_vendor_plaque"
+    ],
+    "2": [
+      "app_sanitizeusertext",
+      "htaccess_security",
+      "index_about_section",
+      "index_contacts_section",
+      "index_csp_meta",
+      "index_html",
+      "index_mobile_drawer",
+      "readme_architecture"
+    ],
+    "3": [
+      "app",
+      "app_setcarouselslide",
+      "app_showtoast",
+      "app_startcarousel",
+      "app_stopcarousel"
+    ],
+    "4": [
+      "app_rendersymptomchips",
+      "app_state",
+      "app_syncdevicechipsui",
+      "index_calculator_section",
+      "index_custom_symptom_box"
+    ],
+    "5": [
+      "app_populateservicemodal",
+      "app_service_details",
+      "index_service_modal",
+      "index_services_section"
+    ],
+    "6": [
+      "app_applylanguage",
+      "app_i18n_dict"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2,
+    "1": 0.2222222222222222,
+    "2": 0.32142857142857145,
+    "3": 0.6,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "index_html",
+      "label": "index.html (Main Page Markup)",
+      "degree": 13
+    },
+    {
+      "id": "index_brands_section",
+      "label": "Authorized 8 Brands Grid (#brands)",
+      "degree": 11
+    },
+    {
+      "id": "app_rendersymptomchips",
+      "label": "renderSymptomChips()",
+      "degree": 8
+    },
+    {
+      "id": "styles_css",
+      "label": "styles.css (Theme 3 Design System)",
+      "degree": 7
+    },
+    {
+      "id": "index_calculator_section",
+      "label": "WhatsApp Request Calculator (#calculator)",
+      "degree": 6
+    },
+    {
+      "id": "app_applylanguage",
+      "label": "applyLanguage()",
+      "degree": 5
+    },
+    {
+      "id": "app_populateservicemodal",
+      "label": "populateServiceModal()",
+      "degree": 5
+    },
+    {
+      "id": "index_site_header",
+      "label": "Sticky Header & Victory 121 Logo (#top)",
+      "degree": 4
+    },
+    {
+      "id": "htaccess_security",
+      "label": ".htaccess HTTP Security Headers (HSTS, CSP, X-Frame-Options)",
+      "degree": 4
+    },
+    {
+      "id": "readme_architecture",
+      "label": "README.md (Project Documentation & Runbook)",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Authorized 8 Brands Grid (#brands)",
+      "target": "Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)",
+      "source_files": [
+        "index.html",
+        "assets/brands/bang-olufsen.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)` unexpectedly reaches hub `Authorized 8 Brands Grid (#brands)`"
+    },
+    {
+      "source": "Authorized 8 Brands Grid (#brands)",
+      "target": "Canon Official Red Vector Logo (canon.svg)",
+      "source_files": [
+        "index.html",
+        "assets/brands/canon.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Canon Official Red Vector Logo (canon.svg)` unexpectedly reaches hub `Authorized 8 Brands Grid (#brands)`"
+    },
+    {
+      "source": "Authorized 8 Brands Grid (#brands)",
+      "target": "Epson Official Blue Vector Logo (epson.svg)",
+      "source_files": [
+        "index.html",
+        "assets/brands/epson.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Epson Official Blue Vector Logo (epson.svg)` unexpectedly reaches hub `Authorized 8 Brands Grid (#brands)`"
+    },
+    {
+      "source": "Authorized 8 Brands Grid (#brands)",
+      "target": "Катюша Cropped Official Logo (katusha.png)",
+      "source_files": [
+        "index.html",
+        "assets/brands/katusha.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Катюша Cropped Official Logo (katusha.png)` unexpectedly reaches hub `Authorized 8 Brands Grid (#brands)`"
+    },
+    {
+      "source": "Authorized 8 Brands Grid (#brands)",
+      "target": "Kyocera Official Red Mark + Wordmark (kyocera.svg)",
+      "source_files": [
+        "index.html",
+        "assets/brands/kyocera.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Kyocera Official Red Mark + Wordmark (kyocera.svg)` unexpectedly reaches hub `Authorized 8 Brands Grid (#brands)`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `index.html (Main Page Markup)` connect `Security Hardening (CSP, HSTS & XSS Guard)` to `Authorized Vendor Brands & SVG Plaques`, `Theme 3 Titanium Slate Design System`, `Hero Circuit Animation & Equipment Carousel`, `WhatsApp Diagnostic Calculator & State`, `Core Page Markup & UI Module 5`?",
+      "why": "High betweenness centrality (0.520) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Mobile Navigation Drawer (<dialog #mobile-drawer>)`, `About Victory 121 & Engineering Standards (#about)`, `Responsive Breakpoints (1080px Tablet / 720px Mobile)` to the rest of the system?",
+      "why": "12 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Authorized 8 Brands Grid (#brands)` connect `Authorized Vendor Brands & SVG Plaques` to `Theme 3 Titanium Slate Design System`, `Security Hardening (CSP, HSTS & XSS Guard)`?",
+      "why": "High betweenness centrality (0.369) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `styles.css (Theme 3 Design System)` connect `Theme 3 Titanium Slate Design System` to `Security Hardening (CSP, HSTS & XSS Guard)`?",
+      "why": "High betweenness centrality (0.159) - this node is a cross-community bridge."
+    }
+  ]
+}
