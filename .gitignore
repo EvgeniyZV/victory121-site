@@ -11,3 +11,5 @@ __pycache__/
 # Graphify temporary build sidecars (machine-specific paths)
 # Keep graph.json, GRAPH_REPORT.md, graph.html, GRAPH_TREE.html, wiki/, manifest.json, cost.json, cache/ tracked!
 graphify-out/.graphify_*
+graphify-out/.rebuild.lock
+
