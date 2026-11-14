@@ -1,9 +1,9 @@
 {
   "app.js": {
-    "mtime": 1794682427.8210163,
-    "seen": 1794683952.020122,
-    "ast_hash": "06dc6bb029a3e95732397e168f7f48e0",
-    "semantic_hash": "06dc6bb029a3e95732397e168f7f48e0"
+    "mtime": 1794685096.215899,
+    "seen": 1794685128.429347,
+    "ast_hash": "d92f944e28eb01e16da6321638fde575",
+    "semantic_hash": ""
   },
   "README.md": {
     "mtime": 1794678944.3745472,
@@ -12,10 +12,10 @@
     "semantic_hash": "bb7fef212af19f50dbdbf5edc13e97da"
   },
   "index.html": {
-    "mtime": 1794682403.3353453,
-    "seen": 1794683952.020122,
-    "ast_hash": "e71394993070f0838d5e8b438d65803c",
-    "semantic_hash": "e71394993070f0838d5e8b438d65803c"
+    "mtime": 1794685092.109195,
+    "seen": 1794685128.429347,
+    "ast_hash": "6e67fa023b9566fc9714e30ef4253534",
+    "semantic_hash": ""
   },
   "assets/brands/bang-olufsen.svg": {
     "mtime": 1794677587.3802147,
@@ -76,5 +76,71 @@
     "seen": 1794683952.020122,
     "ast_hash": "972e3297a04125f8ba38685c5e5387b0",
     "semantic_hash": "972e3297a04125f8ba38685c5e5387b0"
+  },
+  "assets/equipment/about-service-center.png": {
+    "mtime": 1794684805.8702683,
+    "seen": 1794685128.429347,
+    "ast_hash": "7edfc0cb6f713b8e1da6b2d707deb33f",
+    "semantic_hash": ""
+  },
+  "assets/equipment/hero-canon-print-2.png": {
+    "mtime": 1794684814.0868132,
+    "seen": 1794685128.429347,
+    "ast_hash": "3db538516bd2515dfa43e99d62027b29",
+    "semantic_hash": ""
+  },
+  "assets/equipment/hero-canon.png": {
+    "mtime": 1794684816.2119753,
+    "seen": 1794685128.429347,
+    "ast_hash": "83178c99b710d3884dfe8d1ab41ae698",
+    "semantic_hash": ""
+  },
+  "assets/equipment/hero-epson.png": {
+    "mtime": 1794684828.5070865,
+    "seen": 1794685128.429347,
+    "ast_hash": "24a367025966b4742a56317b9ac185db",
+    "semantic_hash": ""
+  },
+  "assets/equipment/hero-nikon.png": {
+    "mtime": 1794684817.3739016,
+    "seen": 1794685128.429347,
+    "ast_hash": "3fd2a101c1d5f0648cfe2bfd71855e88",
+    "semantic_hash": ""
+  },
+  "assets/equipment/hero-samsung.png": {
+    "mtime": 1794684813.7999895,
+    "seen": 1794685128.429347,
+    "ast_hash": "320e9a75c8a2ee0715643b768afcbba4",
+    "semantic_hash": ""
+  },
+  "assets/equipment/service-audio.png": {
+    "mtime": 1794684827.8205743,
+    "seen": 1794685128.429347,
+    "ast_hash": "20590719103a2a2d0e33e31775d370e3",
+    "semantic_hash": ""
+  },
+  "assets/equipment/service-camera-1.png": {
+    "mtime": 1794684794.3396118,
+    "seen": 1794685128.429347,
+    "ast_hash": "373cf49a140f27593a6042f7b304b0a9",
+    "semantic_hash": ""
+  },
+  "assets/equipment/service-lens-nikon-1.png": {
+    "mtime": 1794684822.8317146,
+    "seen": 1794685128.429347,
+    "ast_hash": "fbd94c0df4837342c3975beb3214f951",
+    "semantic_hash": ""
+  },
+  "assets/equipment/service-monitor-1.png": {
+    "mtime": 1794684788.5137389,
+    "seen": 1794685128.429347,
+    "ast_hash": "74722e719c55b1fea21f872f33d2b5b0",
+    "semantic_hash": ""
+  },
+  "assets/equipment/service-printer-1.png": {
+    "mtime": 1794684833.6142244,
+    "seen": 1794685128.429347,
+    "ast_hash": "6f42b661ff80b5857f9238535d44a7e1",
+    "semantic_hash": ""
   }
 }

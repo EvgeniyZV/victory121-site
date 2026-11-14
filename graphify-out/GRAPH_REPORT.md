@@ -1,7 +1,7 @@
 # Graph Report - сайт  (2026-11-14)
 
 ## Corpus Check
-- 2 files · ~11,249 words
+- 2 files · ~11,234 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 6 file(s) not represented in the graph (top: (none) 5, .css 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 4,200 input · 1,850 output
 
 ## Graph Freshness
-- Built from commit: `4a47b70c`
+- Built from commit: `366066f7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,8 +33,8 @@
 6. `applyLanguage()` - 5 edges
 7. `populateServiceModal()` - 5 edges
 8. `Hero Section & Circuit Animation (.hero-section)` - 4 edges
-9. `Sticky Header & Victory 121 Logo (#top)` - 4 edges
-10. `Variant 3: Royal Sapphire & Imperial Gold Accents (--gold-*)` - 4 edges
+9. `Variant 3: Royal Sapphire & Imperial Gold Accents (--gold-*)` - 4 edges
+10. `README.md (Project Documentation & Runbook)` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Authorized 8 Brands Grid & Official Vendor Links (#brands)` --references--> `Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)`  [EXTRACTED]
