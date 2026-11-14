@@ -1,9 +1,9 @@
 {
   "app.js": {
-    "mtime": 1794685196.176479,
-    "seen": 1794685224.6153932,
-    "ast_hash": "f338e56a971354754a9e897bc07dc5ae",
-    "semantic_hash": ""
+    "mtime": 1794686942.462627,
+    "seen": 1794687067.7943363,
+    "ast_hash": "54ee06bb29daa461809a236dd835a2b6",
+    "semantic_hash": "54ee06bb29daa461809a236dd835a2b6"
   },
   "README.md": {
     "mtime": 1794678944.3745472,
@@ -12,10 +12,10 @@
     "semantic_hash": "bb7fef212af19f50dbdbf5edc13e97da"
   },
   "index.html": {
-    "mtime": 1794685192.4223776,
-    "seen": 1794685224.6153932,
-    "ast_hash": "7f0e8f665384bf68be0f88bc96df23fa",
-    "semantic_hash": ""
+    "mtime": 1794686855.7580087,
+    "seen": 1794687067.7943363,
+    "ast_hash": "3c45f4ebd3a959b65aeb1e8863d7a39a",
+    "semantic_hash": "3c45f4ebd3a959b65aeb1e8863d7a39a"
   },
   "assets/brands/bang-olufsen.svg": {
     "mtime": 1794677587.3802147,
@@ -142,5 +142,11 @@
     "seen": 1794685128.429347,
     "ast_hash": "6f42b661ff80b5857f9238535d44a7e1",
     "semantic_hash": ""
+  },
+  "assets/equipment/victory121-map.jpg": {
+    "mtime": 1794686730.899775,
+    "seen": 1794687067.7943363,
+    "ast_hash": "5c08ebf5b01cfee742a6d486f3b15ba3",
+    "semantic_hash": "5c08ebf5b01cfee742a6d486f3b15ba3"
   }
 }

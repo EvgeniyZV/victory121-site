@@ -1,8 +1,8 @@
 # Sticky Header & Victory 121 Logo (#top)
 
-> God node · 4 connections · `index.html`
+> God node · 5 connections · `index.html`
 
-**Community:** [Theme 3 Titanium Slate Design System](Theme_3_Titanium_Slate_Design_System.md)
+**Community:** [Core Page Markup & UI Module 4](Core_Page_Markup_&_UI_Module_4.md)
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 
 ### references
 - [index.html (Main Page Markup)](index.html_Main_Page_Markup.md) `EXTRACTED`
+- [updateWorkingHoursStatus()](updateWorkingHoursStatus.md) `EXTRACTED`
 - Victory 121 Logo Typography (.v121-logo) `EXTRACTED`
 - Victory 121 3D Globe Emblem (victory-globe.png) `EXTRACTED`
 

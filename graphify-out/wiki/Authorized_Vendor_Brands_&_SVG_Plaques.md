@@ -17,9 +17,8 @@
 
 ## Relationships
 
+- [WhatsApp Diagnostic Calculator & State](WhatsApp_Diagnostic_Calculator_&_State.md) (2 shared connections)
 - [Theme 3 Titanium Slate Design System](Theme_3_Titanium_Slate_Design_System.md) (2 shared connections)
-- [Hero Circuit Animation & Equipment Carousel](Hero_Circuit_Animation_&_Equipment_Carousel.md) (1 shared connections)
-- [WhatsApp Diagnostic Calculator & State](WhatsApp_Diagnostic_Calculator_&_State.md) (1 shared connections)
 - [Security Hardening (CSP, HSTS & XSS Guard)](Security_Hardening_CSP,_HSTS_&_XSS_Guard.md) (1 shared connections)
 
 ## Source Files

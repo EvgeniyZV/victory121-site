@@ -7,8 +7,8 @@
 ## Connections by Relation
 
 ### conceptually_related_to
+- Contacts, 2GIS/Yandex/Google Route Builder & Live Almaty Hours (#contacts) `INFERRED`
 - sanitizeUserText() `INFERRED`
-- Contacts & Sandboxed Map (#contacts) `INFERRED`
 
 ### references
 - README.md (Project Documentation & Runbook) `EXTRACTED`

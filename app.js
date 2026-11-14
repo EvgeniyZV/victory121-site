@@ -149,18 +149,33 @@
       contacts_desc: 'Ждём вас в будние дни с 09:00 до 18:00. Перед визитом вы можете написать в WhatsApp или позвонить для быстрой консультации.',
       cnt_address_label: 'Адрес сервисного центра',
       cnt_address_val: 'г. Алматы, ул. Розыбакиева, 275А, цокольный этаж',
+      cnt_landmark: 'Ориентир: между ул. Малахова и ЖК Atria (выше ул. Кожабекова), вход в цокольный этаж. Удобная парковка перед зданием.',
+      cnt_routes_label: 'Построить маршрут в навигаторе:',
+      route_2gis: '2ГИС Алматы ↗',
+      route_yandex: 'Яндекс Карты ↗',
+      route_google: 'Google Maps ↗',
       copy_addr_btn: 'Скопировать адрес',
       copy_addr_done: 'Адрес скопирован ✓',
       open_2gis_link: 'Открыть в 2ГИС ↗',
       cnt_phones_label: 'Телефоны и WhatsApp',
       tag_mobile_wa: 'Мобильный / WhatsApp',
       tag_city_phone: 'Городской многоканальный',
-      cnt_hours_label: 'График работы',
+      cnt_hours_label: 'График работы (Алматы, UTC+5)',
       cnt_hours_val: 'Пн–Пт: 09:00 – 18:00',
       cnt_hours_weekend: 'Сб–Вс: выходной',
       cnt_email_label: 'Электронная почта',
       contact_2gis_btn: 'Построить маршрут в 2ГИС',
       map_city_tag: 'Алматы, Бостандыкский район',
+      map_tab_scheme: 'Схема 2ГИС',
+      map_tab_interactive: 'Интерактивная карта',
+      map_overlay_badge: 'Victory 121 · Авторизованный сервис',
+      map_overlay_addr: 'ул. Розыбакиева, 275А (цокольный этаж)',
+      live_top_open: 'Сейчас открыты · до 18:00',
+      live_cnt_open: 'Сейчас открыты · Ждём вас до 18:00',
+      live_top_closed_weekday: 'Заявки в WhatsApp 24/7 · Откроемся в 09:00',
+      live_cnt_closed_weekday: 'Принимаем заявки в WhatsApp · Откроемся в 09:00',
+      live_top_closed_weekend: 'Заявки в WhatsApp 24/7 · Откроемся в Пн в 09:00',
+      live_cnt_closed_weekend: 'Принимаем заявки в WhatsApp · Откроемся в Пн в 09:00',
 
       modal_symptoms_title: 'Частые симптомы поломок',
       modal_works_title: 'Выполняемые работы',
@@ -316,18 +331,33 @@
       contacts_desc: 'Сізді жұмыс күндері 09:00-ден 18:00-ге дейін күтеміз. Келер алдында WhatsApp-қа жазуға немесе қоңырау шалуға болады.',
       cnt_address_label: 'Сервис орталығының мекенжайы',
       cnt_address_val: 'Алматы қ., Розыбакиев к-сі, 275А, цокольдік қабат',
+      cnt_landmark: 'Бағдар: Малахов к-сі мен Atria ТК арасында (Қожабеков к-сінен жоғары), цокольдік қабатқа кіру. Ғимарат алдында ыңғайлы тұрақ бар.',
+      cnt_routes_label: 'Навигаторда маршрут құру:',
+      route_2gis: '2ГИС Алматы ↗',
+      route_yandex: 'Яндекс Карталар ↗',
+      route_google: 'Google Maps ↗',
       copy_addr_btn: 'Мекенжайды көшіру',
       copy_addr_done: 'Мекенжай көшірілді ✓',
       open_2gis_link: '2ГИС-те ашу ↗',
       cnt_phones_label: 'Телефондар және WhatsApp',
       tag_mobile_wa: 'Ұялы / WhatsApp',
       tag_city_phone: 'Қалалық көпарналы',
-      cnt_hours_label: 'Жұмыс кестесі',
+      cnt_hours_label: 'Жұмыс кестесі (Алматы, UTC+5)',
       cnt_hours_val: 'Дс–Жм: 09:00 – 18:00',
       cnt_hours_weekend: 'Сб–Жс: демалыс',
       cnt_email_label: 'Электрондық пошта',
       contact_2gis_btn: '2ГИС-те маршрут құру',
       map_city_tag: 'Алматы, Бостандық ауданы',
+      map_tab_scheme: '2ГИС сызбасы',
+      map_tab_interactive: 'Интерактивті карта',
+      map_overlay_badge: 'Victory 121 · Авторландырылған сервис',
+      map_overlay_addr: 'Розыбакиев к-сі, 275А (цокольдік қабат)',
+      live_top_open: 'Қазір ашықпыз · 18:00-ге дейін',
+      live_cnt_open: 'Қазір ашықпыз · 18:00-ге дейін күтеміз',
+      live_top_closed_weekday: 'WhatsApp өтінімдері 24/7 · 09:00-де ашыламыз',
+      live_cnt_closed_weekday: 'WhatsApp арқылы өтінім қабылдаймыз · 09:00-де ашыламыз',
+      live_top_closed_weekend: 'WhatsApp өтінімдері 24/7 · Дс 09:00-де ашыламыз',
+      live_cnt_closed_weekend: 'WhatsApp арқылы өтінім қабылдаймыз · Дс 09:00-де ашыламыз',
 
       modal_symptoms_title: 'Жиі кездесетін ақау белгілері',
       modal_works_title: 'Орындалатын жұмыстар',
@@ -813,6 +843,49 @@
     });
   }
 
+  function updateWorkingHoursStatus() {
+    const dict = I18N[state.lang] || I18N.ru;
+    // Almaty is permanently UTC+5 (Asia/Almaty, no DST)
+    const almatyNow = new Date(Date.now() + 5 * 60 * 60 * 1000);
+    const day = almatyNow.getUTCDay(); // 0 = Sun, 1..5 = Mon..Fri, 6 = Sat
+    const totalMinutes = almatyNow.getUTCHours() * 60 + almatyNow.getUTCMinutes();
+
+    const isOpen = day >= 1 && day <= 5 && totalMinutes >= 9 * 60 && totalMinutes < 18 * 60;
+    const isNextMonday = day === 0 || day === 6 || (day === 5 && totalMinutes >= 18 * 60);
+
+    const topText = isOpen
+      ? dict.live_top_open
+      : (isNextMonday ? dict.live_top_closed_weekend : dict.live_top_closed_weekday);
+
+    const cntText = isOpen
+      ? dict.live_cnt_open
+      : (isNextMonday ? dict.live_cnt_closed_weekend : dict.live_cnt_closed_weekday);
+
+    const topPill = document.getElementById('top-live-status');
+    const topTextEl = document.getElementById('top-live-status-text');
+    const cntPill = document.getElementById('contacts-live-status');
+    const cntTextEl = document.getElementById('contacts-live-status-text');
+    const utilDot = document.getElementById('utility-status-dot');
+
+    if (topPill) {
+      topPill.classList.toggle('is-open', isOpen);
+      topPill.classList.toggle('is-after-hours', !isOpen);
+    }
+    if (topTextEl) {
+      topTextEl.textContent = topText;
+    }
+    if (cntPill) {
+      cntPill.classList.toggle('is-open', isOpen);
+      cntPill.classList.toggle('is-after-hours', !isOpen);
+    }
+    if (cntTextEl) {
+      cntTextEl.textContent = cntText;
+    }
+    if (utilDot) {
+      utilDot.classList.toggle('is-after-hours', !isOpen);
+    }
+  }
+
   function applyLanguage(lang) {
     state.lang = I18N[lang] ? lang : 'ru';
     document.documentElement.lang = state.lang === 'kz' ? 'kk' : 'ru';
@@ -839,6 +912,7 @@
     });
 
     renderSymptomChips();
+    updateWorkingHoursStatus();
 
     if (serviceModal && serviceModal.open) {
       populateServiceModal(state.activeModalService);
@@ -1090,7 +1164,31 @@
     });
   }
 
+  // Map View Switcher (2GIS Scheme vs Interactive OSM Map)
+  const mapSchemeView = document.getElementById('map-scheme-view');
+  const mapInteractiveView = document.getElementById('map-interactive-view');
+  const mapViewButtons = document.querySelectorAll('[data-map-view]');
+
+  if (mapViewButtons.length > 0 && mapSchemeView && mapInteractiveView) {
+    mapViewButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const mode = btn.getAttribute('data-map-view');
+        const isInteractive = mode === 'interactive';
+        mapSchemeView.hidden = isInteractive;
+        mapInteractiveView.hidden = !isInteractive;
+
+        mapViewButtons.forEach((b) => {
+          const active = b.getAttribute('data-map-view') === mode;
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+      });
+    });
+  }
+
   syncDeviceChipsUI();
   syncBrandUI();
   renderSymptomChips();
+  updateWorkingHoursStatus();
+  window.setInterval(updateWorkingHoursStatus, 60000);
 })();

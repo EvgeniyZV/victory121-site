@@ -2,7 +2,7 @@
 
 > God node · 5 connections · `app.js`
 
-**Community:** [Hero Circuit Animation & Equipment Carousel](Hero_Circuit_Animation_&_Equipment_Carousel.md)
+**Community:** [Core Page Markup & UI Module 5](Core_Page_Markup_&_UI_Module_5.md)
 
 ## Connections by Relation
 

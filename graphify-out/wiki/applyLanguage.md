@@ -1,14 +1,15 @@
 # applyLanguage()
 
-> God node · 5 connections · `app.js`
+> God node · 6 connections · `app.js`
 
-**Community:** [Hero Circuit Animation & Equipment Carousel](Hero_Circuit_Animation_&_Equipment_Carousel.md)
+**Community:** [Core Page Markup & UI Module 4](Core_Page_Markup_&_UI_Module_4.md)
 
 ## Connections by Relation
 
 ### calls
 - [renderSymptomChips()](renderSymptomChips.md) `EXTRACTED`
 - [populateServiceModal()](populateServiceModal.md) `EXTRACTED`
+- [updateWorkingHoursStatus()](updateWorkingHoursStatus.md) `EXTRACTED`
 
 ### conceptually_related_to
 - [Sticky Header & Victory 121 Logo (#top)](Sticky_Header_&_Victory_121_Logo__top.md) `INFERRED`
