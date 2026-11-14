@@ -22,9 +22,10 @@
 ## 3. Хостинг PS.kz / Plesk и автодеплой (`victory121.kz`)
 - **Сервер Plesk:** `srv-plesk14.ps.kz` (`https://srv-plesk14.ps.kz:8443`, вход через `https://console.ps.kz/plesk/shared/17766`).
 - **Структура папок на сервере:**
-  - `/victory121-site` — наш новый сайт, привязанный через модуль **Plesk Git** к репозиторию `https://github.com/EvgeniyZV/victory121-site.git` (ветка `main`). Обновляется автоматически при каждом `git push` через Webhook.
-  - `/new.victory121.kz` — текущая активная папка (`Document Root`) старого сайта на WordPress (сохранена без изменений).
+  - `/victory121-site` — **Текущая активная папка (`Document Root`) основного домена `https://victory121.kz/`**, привязанная через модуль **Plesk Git** к репозиторию `https://github.com/EvgeniyZV/victory121-site.git` (ветка `main`). Обновляется автоматически при каждом `git push` через Webhook.
+  - `/new.victory121.kz` — предыдущий сайт на WordPress (сохранён без изменений для мгновенного отката).
+  - `/backup_new_victory121_kz_before_switch.zip` (`199.1 МБ`) — полный автономный ZIP-архив папки `/new.victory121.kz` в корне сервера `/`.
   - `/httpdocs` — архив старого сайта 2012–2024 гг. (сохранён без изменений).
-- **Переключение основного домена по команде пользователя:**
-  - В панели Plesk (`victory121.kz` → **Настройки хостинга**) изменить поле **Корневая папка (`Document Root`)** с `new.victory121.kz` на `victory121-site` и нажать **ОК**.
+- **Быстрый откат по команде пользователя (при необходимости):**
+  - В панели Plesk (`victory121.kz` → **Настройки хостинга**) изменить поле **Корневая папка (`Document Root`)** с `victory121-site` обратно на `new.victory121.kz` и нажать **ОК**.
 
