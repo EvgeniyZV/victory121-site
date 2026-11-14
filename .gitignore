@@ -1,0 +1,13 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Graphify temporary build sidecars (machine-specific paths)
+# Keep graph.json, GRAPH_REPORT.md, graph.html, GRAPH_TREE.html, wiki/, manifest.json, cost.json, cache/ tracked!
+graphify-out/.graphify_*

@@ -1,0 +1,38 @@
+# ==============================================================================
+# Victory 121 — Конфигурация безопасности веб-сервера (.htaccess)
+# ==============================================================================
+
+# 1. Запрет листинга директорий и скрытых служебных файлов
+Options -Indexes
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+
+# 2. Принудительное перенаправление на защищённый протокол HTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1) [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# 3. Заголовки безопасности HTTP (OWASP Best Practices)
+<IfModule mod_headers.c>
+  # HSTS: принудительный HTTPS на 2 года
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+
+  # Защита от Clickjacking (запрет встраивания сайта в чужие iframe)
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Защита от MIME-sniffing атак
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Политика передачи Referrer
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Ограничение доступа к аппаратным API браузера (камера, микрофон, геолокация, платежи)
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+  # Content Security Policy (CSP): защита от XSS и инъекций сторонних скриптов
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://victory121.kz data:; frame-src https://www.openstreetmap.org; frame-ancestors 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me;"
+</IfModule>

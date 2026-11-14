@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0B121E">
+  <meta name="color-scheme" content="dark">
+  <title>Victory 121 — Авторизованный сервисный центр в Алматы | Ремонт оргтехники, фото-, видео- и аудиотехники</title>
+  <meta name="description" content="Авторизованный сервисный центр Victory 121 в Алматы (ул. Розыбакиева, 275А). 17 лет опыта. Официальный ремонт Canon, Epson, Sony, Nikon, Samsung, Kyocera, Катюша, Bang & Olufsen с гарантией.">
+
+  <!-- Security Hardening: Content Security Policy (CSP) & Referrer Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://victory121.kz data:; frame-src https://www.openstreetmap.org; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Preconnect & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link" data-i18n="skip_link">Перейти к основному содержимому</a>
+
+  <!-- Top Utility Bar -->
+  <div class="utility-bar">
+    <div class="container utility-bar__inner">
+      <div class="utility-bar__left">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span data-i18n="top_status">Авторизованный сервисный центр · Алматы, ул. Розыбакиева, 275А</span>
+      </div>
+      <div class="utility-bar__right">
+        <span class="utility-bar__hours" data-i18n="top_hours">Пн–Пт: 09:00–18:00</span>
+        <span class="utility-bar__divider" aria-hidden="true">|</span>
+        <a href="tel:+77273022613" class="utility-bar__phone" translate="no">+7 (727) 302-26-13</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Main Header -->
+  <header class="site-header" id="top">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand-logo v121-logo" id="header-brand-logo" aria-label="Victory 121 — На главную">
+        <img
+          src="./assets/victory-globe.png"
+          alt=""
+          class="v121-logo__globe"
+          width="44"
+          height="38"
+          fetchpriority="high"
+        >
+        <span class="v121-logo__wordmark" translate="no">
+          <span class="v121-logo__victory">Victory</span><span class="v121-logo__sep" aria-hidden="true"></span><span class="v121-logo__num">121</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#brands" class="desktop-nav__link" data-i18n="nav_brands">Бренды</a>
+        <a href="#services" class="desktop-nav__link" data-i18n="nav_services">Услуги</a>
+        <a href="#calculator" class="desktop-nav__link" data-i18n="nav_calc">Оценка ремонта</a>
+        <a href="#about" class="desktop-nav__link" data-i18n="nav_about">О центре</a>
+        <a href="#contacts" class="desktop-nav__link" data-i18n="nav_contacts">Контакты</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="site-header__actions">
+        <div class="lang-switch" role="group" aria-label="Выбор языка">
+          <button type="button" class="lang-switch__btn is-active" data-lang-btn="ru" aria-pressed="true">РУС</button>
+          <button type="button" class="lang-switch__btn" data-lang-btn="kz" aria-pressed="false">ҚАЗ</button>
+        </div>
+
+        <a href="tel:+77079980566" class="header-phone" translate="no">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>+7 (707) 998-05-66</span>
+        </a>
+
+        <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--sm header-wa">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button type="button" class="mobile-menu-btn" id="open-mobile-menu" aria-label="Открыть меню навигации" aria-expanded="false" aria-controls="mobile-drawer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer (<dialog>) -->
+  <dialog class="mobile-drawer" id="mobile-drawer" aria-label="Мобильное меню">
+    <div class="mobile-drawer__panel">
+      <div class="mobile-drawer__header">
+        <span class="brand-logo v121-logo" translate="no">
+          <img
+            src="./assets/victory-globe.png"
+            alt=""
+            class="v121-logo__globe"
+            width="38"
+            height="32"
+          >
+          <span class="v121-logo__wordmark">
+            <span class="v121-logo__victory">Victory</span><span class="v121-logo__sep" aria-hidden="true"></span><span class="v121-logo__num">121</span>
+          </span>
+        </span>
+        <button type="button" class="icon-close-btn" id="close-mobile-menu" aria-label="Закрыть меню">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mobile-drawer__nav" aria-label="Мобильная навигация">
+        <a href="#brands" class="mobile-drawer__link" data-i18n="nav_brands">Авторизованные бренды</a>
+        <a href="#services" class="mobile-drawer__link" data-i18n="nav_services">Услуги и направления</a>
+        <a href="#calculator" class="mobile-drawer__link" data-i18n="nav_calc">Онлайн-оценка ремонта</a>
+        <a href="#about" class="mobile-drawer__link" data-i18n="nav_about">О сервисном центре</a>
+        <a href="#contacts" class="mobile-drawer__link" data-i18n="nav_contacts">Адрес и контакты</a>
+      </nav>
+
+      <div class="mobile-drawer__footer">
+        <div class="mobile-drawer__contact-item">
+          <span class="mobile-drawer__label" data-i18n="drawer_address_label">Адрес в Алматы:</span>
+          <strong data-i18n="drawer_address_val">ул. Розыбакиева, 275А, цокольный этаж</strong>
+        </div>
+        <div class="mobile-drawer__contact-item">
+          <span class="mobile-drawer__label" data-i18n="drawer_phones_label">Телефоны:</span>
+          <a href="tel:+77079980566" class="mobile-drawer__phone" translate="no">+7 (707) 998-05-66</a>
+          <a href="tel:+77273022613" class="mobile-drawer__phone" translate="no">+7 (727) 302-26-13</a>
+        </div>
+        <div class="mobile-drawer__cta-group">
+          <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--full" data-i18n="hero_cta_wa">Написать в WhatsApp</a>
+          <a href="https://2gis.kz/almaty/directions/points/%7C76.89399%2C43.198657%3B9429940000895218" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--full" data-i18n="contact_2gis_btn">Построить маршрут в 2ГИС</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <main id="main-content">
+    <!-- Hero Section with Animated Circuit Board & 5-Slide Equipment Showcase -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <!-- Left Column: Brand Authority & Core Offer -->
+        <div class="hero-content">
+          <div class="authority-badge">
+            <span class="authority-badge__dot" aria-hidden="true"></span>
+            <span data-i18n="hero_badge">Авторизованный сервисный центр · 17 лет в Алматы</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero_title">
+            Профессиональный ремонт оргтехники, фото-, видео- и&nbsp;аудиотехники — качество и&nbsp;точность в&nbsp;каждой детали
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Официальная авторизация мировых производителей. Проводим точную аппаратную диагностику, используем оригинальные комплектующие и даём письменную гарантию на выполненные работы.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#calculator" class="btn btn--primary btn--lg">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="4" y="2" width="16" height="20" rx="2"/>
+                <line x1="8" y1="6" x2="16" y2="6"/>
+                <line x1="8" y1="10" x2="16" y2="10"/>
+                <line x1="8" y1="14" x2="12" y2="14"/>
+              </svg>
+              <span data-i18n="hero_cta_calc">Оценить ремонт онлайн</span>
+            </a>
+            <a href="https://wa.me/77079980566?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D1%83%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%B2%20Victory%20121." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--lg">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+              <span data-i18n="hero_cta_wa">Написать в WhatsApp</span>
+            </a>
+            <a href="tel:+77079980566" class="btn btn--outline btn--lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span data-i18n="hero_cta_call">Позвонить</span>
+            </a>
+          </div>
+
+          <!-- Key Trust Metrics -->
+          <dl class="hero-metrics">
+            <div class="hero-metric">
+              <dt class="hero-metric__label" data-i18n="metric_1_label">Опыт работы</dt>
+              <dd class="hero-metric__value" data-i18n="metric_1_val">17 лет</dd>
+            </div>
+            <div class="hero-metric">
+              <dt class="hero-metric__label" data-i18n="metric_2_label">Официальная авторизация</dt>
+              <dd class="hero-metric__value" data-i18n="metric_2_val">8 брендов</dd>
+            </div>
+            <div class="hero-metric">
+              <dt class="hero-metric__label" data-i18n="metric_3_label">Комплектующие</dt>
+              <dd class="hero-metric__value" data-i18n="metric_3_val">100% оригинал</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Right Column: Signature Animated Circuit Showcase & 5-Equipment Carousel -->
+        <div class="hero-showcase-wrap">
+          <div class="hero-image hero-showcase" id="hero-carousel" role="region" aria-label="Карусель обслуживаемой техники">
+            <!-- Animated SVG Electric Circuit Board Background -->
+            <div class="hero-tech-bg" aria-hidden="true">
+              <svg viewBox="0 0 900 520" preserveAspectRatio="none">
+                <g class="circuit-base">
+                  <path d="M0 90 H150 V145 H285 V205 H390"></path>
+                  <path d="M0 215 H110 V270 H245 V330 H365"></path>
+                  <path d="M0 410 H175 V355 H310 V420 H430"></path>
+                  <path d="M900 75 H745 V135 H620 V195 H510"></path>
+                  <path d="M900 250 H790 V305 H655 V365 H535"></path>
+                  <path d="M900 445 H720 V390 H590 V450 H470"></path>
+                </g>
+                <g class="circuit-pulse">
+                  <path d="M0 90 H150 V145 H285 V205 H390"></path>
+                  <path d="M0 215 H110 V270 H245 V330 H365"></path>
+                  <path d="M0 410 H175 V355 H310 V420 H430"></path>
+                  <path d="M900 75 H745 V135 H620 V195 H510"></path>
+                  <path d="M900 250 H790 V305 H655 V365 H535"></path>
+                  <path d="M900 445 H720 V390 H590 V450 H470"></path>
+                </g>
+                <g class="circuit-nodes">
+                  <circle cx="150" cy="145" r="4"></circle>
+                  <circle cx="285" cy="205" r="4"></circle>
+                  <circle cx="110" cy="270" r="4"></circle>
+                  <circle cx="310" cy="420" r="4"></circle>
+                  <circle cx="745" cy="135" r="4"></circle>
+                  <circle cx="620" cy="195" r="4"></circle>
+                  <circle cx="790" cy="305" r="4"></circle>
+                  <circle cx="590" cy="450" r="4"></circle>
+                </g>
+              </svg>
+            </div>
+
+            <!-- 5 Equipment Slides -->
+            <div class="hero-equipment-slide is-active" data-slide-index="0">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/hero-epson.png" alt="Принтер и МФУ Epson" width="480" height="360" fetchpriority="high" decoding="async">
+              <span class="hero-slide-caption" data-i18n="slide_1_label">Многофункциональные принтеры и СНПЧ Epson</span>
+            </div>
+            <div class="hero-equipment-slide" data-slide-index="1">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/hero-canon.png" alt="Фотоаппарат Canon EOS R6 Mark II" width="480" height="360" decoding="async">
+              <span class="hero-slide-caption" data-i18n="slide_2_label">Профессиональные камеры Canon EOS R / Sony Alpha</span>
+            </div>
+            <div class="hero-equipment-slide" data-slide-index="2">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/hero-nikon.png" alt="Объектив Nikon Nikkor" width="480" height="360" decoding="async">
+              <span class="hero-slide-caption" data-i18n="slide_3_label">Светосильные объективы и оптика Nikon / Canon / Sony</span>
+            </div>
+            <div class="hero-equipment-slide" data-slide-index="3">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/hero-samsung.png" alt="Монитор Samsung" width="480" height="360" decoding="async">
+              <span class="hero-slide-caption" data-i18n="slide_4_label">Мониторы, Smart TV и коммерческие панели Samsung</span>
+            </div>
+            <div class="hero-equipment-slide" data-slide-index="4">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/hero-canon-print-2.png" alt="Принтер Canon" width="480" height="360" decoding="async">
+              <span class="hero-slide-caption" data-i18n="slide_5_label">Принтеры и офисные системы печати Canon / Kyocera</span>
+            </div>
+
+            <!-- Interactive Carousel Navigation Pills -->
+            <div class="hero-carousel-dots" role="tablist" aria-label="Переключение слайдов техники">
+              <button type="button" class="hero-dot is-active" data-carousel-goto="0" aria-label="Принтер Epson" aria-selected="true"></button>
+              <button type="button" class="hero-dot" data-carousel-goto="1" aria-label="Камера Canon" aria-selected="false"></button>
+              <button type="button" class="hero-dot" data-carousel-goto="2" aria-label="Объектив Nikon" aria-selected="false"></button>
+              <button type="button" class="hero-dot" data-carousel-goto="3" aria-label="Монитор Samsung" aria-selected="false"></button>
+              <button type="button" class="hero-dot" data-carousel-goto="4" aria-label="Принтер Canon" aria-selected="false"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust Strip -->
+      <div class="container">
+        <ul class="trust-strip" aria-label="Ключевые гарантии сервиса">
+          <li class="trust-strip__item">
+            <span class="trust-strip__icon" aria-hidden="true">✓</span>
+            <span data-i18n="strip_1">Квалифицированные сертифицированные специалисты</span>
+          </li>
+          <li class="trust-strip__item">
+            <span class="trust-strip__icon" aria-hidden="true">✓</span>
+            <span data-i18n="strip_2">Гарантия на выполненные работы</span>
+          </li>
+          <li class="trust-strip__item">
+            <span class="trust-strip__icon" aria-hidden="true">✓</span>
+            <span data-i18n="strip_3">Прозрачная диагностика и согласование цены</span>
+          </li>
+          <li class="trust-strip__item">
+            <span class="trust-strip__icon" aria-hidden="true">✓</span>
+            <span data-i18n="strip_4">Согласованные сроки и оригинальные запчасти</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Authorized Brands Section: 8 Official Brands Strictly Following Vendor Brand Policy -->
+    <section class="section brands-section" id="brands" aria-labelledby="brands-heading">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker" data-i18n="brands_kicker">Официальная авторизация</span>
+            <h2 class="section-title" id="brands-heading" data-i18n="brands_title">Авторизованный сервисный центр 8&nbsp;мировых брендов</h2>
+          </div>
+          <p class="section-desc" data-i18n="brands_desc">
+            Нажмите на карточку производителя, чтобы выбрать его в конструкторе заявки на ремонт, или перейдите на официальный портал бренда.
+          </p>
+        </div>
+
+        <div class="brands-grid" role="list">
+          <!-- 1. Canon (Official Canon Red Vector Wordmark Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Canon">
+            <button type="button" class="brand-card__select" data-select-brand="Canon" aria-label="Выбрать бренд Canon для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/canon.svg" alt="Canon" class="vendor-svg vendor-svg--canon" width="176" height="38" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_canon_scope">Фотоаппараты, объективы, принтеры, МФУ, плоттеры</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.canon-kz.com/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Canon Казахстан">canon-kz.com ↗</a>
+            </div>
+          </div>
+
+          <!-- 2. Epson (Official Corporate Blue Vector Wordmark Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Epson">
+            <button type="button" class="brand-card__select" data-select-brand="Epson" aria-label="Выбрать бренд Epson для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/epson.svg" alt="Epson" class="vendor-svg vendor-svg--epson" width="168" height="42" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_epson_scope">Принтеры, МФУ с СНПЧ, широкоформатные плоттеры, проекторы</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.epson.kz/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Epson Казахстан">epson.kz ↗</a>
+            </div>
+          </div>
+
+          <!-- 3. SONY (Official Black Vector Wordmark Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Sony">
+            <button type="button" class="brand-card__select" data-select-brand="Sony" aria-label="Выбрать бренд Sony для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/sony.svg" alt="SONY" class="vendor-svg vendor-svg--sony" width="176" height="32" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_sony_scope">Камеры Alpha, объективы G-Master, профессиональное видео и аудио</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.sony.ru/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Sony">sony.ru ↗</a>
+            </div>
+          </div>
+
+          <!-- 4. Nikon (Official Nikon Yellow Gradient Plaque + Official Black Slanted Vector Wordmark) -->
+          <div class="brand-card" role="listitem" data-brand-card="Nikon">
+            <button type="button" class="brand-card__select" data-select-brand="Nikon" aria-label="Выбрать бренд Nikon для заявки">
+              <div class="vendor-plaque vendor-plaque--nikon">
+                <img src="./assets/brands/nikon.svg" alt="Nikon" class="vendor-svg vendor-svg--nikon" width="164" height="48" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_nikon_scope">Зеркальные и беззеркальные камеры Z-серии, оптика Nikkor, вспышки</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.nikon-mea.com/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Nikon">nikon-mea.com ↗</a>
+            </div>
+          </div>
+
+          <!-- 5. Samsung (Official Black Vector Wordmark Cropped & Scaled to Fill Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Samsung">
+            <button type="button" class="brand-card__select" data-select-brand="Samsung" aria-label="Выбрать бренд Samsung для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/samsung.svg" alt="Samsung" class="vendor-svg vendor-svg--samsung" width="204" height="34" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_samsung_scope">Мониторы, телевизоры, коммерческие панели, лазерные МФУ</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.samsung.com/kz_ru/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Samsung Казахстан">samsung.com ↗</a>
+            </div>
+          </div>
+
+          <!-- 6. Kyocera (Official Red Symbol + Black Vector Wordmark Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Kyocera">
+            <button type="button" class="brand-card__select" data-select-brand="Kyocera" aria-label="Выбрать бренд Kyocera для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/kyocera.svg" alt="Kyocera" class="vendor-svg vendor-svg--kyocera" width="196" height="48" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_kyocera_scope">Корпоративные лазерные принтеры, высоконагруженные офисные МФУ</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://russia.kyocera.com/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Kyocera">kyocera ↗</a>
+            </div>
+          </div>
+
+          <!-- 7. Катюша (Official Cropped Logo Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Катюша">
+            <button type="button" class="brand-card__select" data-select-brand="Катюша" aria-label="Выбрать бренд Катюша для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/katusha.png" alt="Катюша" class="vendor-svg vendor-svg--katusha" width="162" height="56" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_katusha_scope">Корпоративные печатные системы, МФУ и покопийное обслуживание</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://katusha.kz/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Катюша Казахстан">katusha.kz ↗</a>
+            </div>
+          </div>
+
+          <!-- 8. Bang & Olufsen (Official B&O Monogram & Wordmark Vector Adapted to Frame) -->
+          <div class="brand-card" role="listitem" data-brand-card="Bang & Olufsen">
+            <button type="button" class="brand-card__select" data-select-brand="Bang & Olufsen" aria-label="Выбрать бренд Bang & Olufsen для заявки">
+              <div class="vendor-plaque">
+                <img src="./assets/brands/bang-olufsen.svg" alt="Bang & Olufsen" class="vendor-svg vendor-svg--bo" width="212" height="42" loading="lazy">
+              </div>
+              <span class="brand-card__scope" data-i18n="brand_bo_scope">Премиальные акустические системы, усилители, саундбары и аудио High-End</span>
+            </button>
+            <div class="brand-card__footer">
+              <span class="brand-card__status" data-i18n="brand_auth_tag">Авторизован</span>
+              <a href="https://www.bang-olufsen.com/" target="_blank" rel="noopener noreferrer" class="brand-card__ext" aria-label="Официальный сайт Bang & Olufsen">bang-olufsen.com ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Bento Grid with Original Equipment Visuals (3x2 Desktop, 2x3 Tablet, 1x6 Mobile) -->
+    <section class="section services-section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker" data-i18n="services_kicker">Направления сервиса</span>
+            <h2 class="section-title" id="services-heading" data-i18n="services_title">Что мы ремонтируем и обслуживаем</h2>
+          </div>
+          <p class="section-desc" data-i18n="services_desc">
+            Каждое направление оснащено специализированными стендами диагностики и складом оригинальных деталей в Алматы.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Printers & MFPs -->
+          <article class="service-card" data-service-id="printers">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/07/service-printer-1.png" alt="Ремонт принтеров и МФУ" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">SRV-01</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv1_title">Ремонт принтеров, МФУ и плоттеров</h3>
+              <p class="service-card__text" data-i18n="srv1_desc">
+                Восстановление печатающих головок Epson и Canon, ремонт узлов термозакрепления (печек) Kyocera и Samsung, устранение замятий и ошибок подачи.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv1_tag1">Прочистка и замена ПГ</li>
+                <li data-i18n="srv1_tag2">Ремонт тракта подачи</li>
+                <li data-i18n="srv1_tag3">Сброс памперса / ТО</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="printers" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="printers" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 2: Cameras -->
+          <article class="service-card" data-service-id="cameras">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/07/service-camera-1.png" alt="Ремонт фотоаппаратов" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">SRV-02</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv2_title">Ремонт фотоаппаратов и видеокамер</h3>
+              <p class="service-card__text" data-i18n="srv2_desc">
+                Ремонт беззеркальных и зеркальных камер Canon, Sony, Nikon. Замена затворов, ремонт матричной стабилизации (IBIS), системных плат и разъёмов.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv2_tag1">Замена затвора</li>
+                <li data-i18n="srv2_tag2">Чистка матрицы CMOS</li>
+                <li data-i18n="srv2_tag3">Ремонт питания / плат</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="cameras" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="cameras" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 3: Lenses -->
+          <article class="service-card" data-service-id="lenses">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/07/service-lens-nikon-1.png" alt="Ремонт объективов" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">SRV-03</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv3_title">Ремонт и юстировка объективов</h3>
+              <p class="service-card__text" data-i18n="srv3_desc">
+                Восстановление геометрии после ударов, замена шлейфов диафрагмы, ремонт ультразвуковых приводов автофокуса (USM/STM/XD) и глубокая чистка линз.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv3_tag1">Замена шлейфа диафрагмы</li>
+                <li data-i18n="srv3_tag2">Ремонт привода фокуса</li>
+                <li data-i18n="srv3_tag3">Оптическая юстировка</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="lenses" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="lenses" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 4: Monitors & TVs -->
+          <article class="service-card" data-service-id="monitors">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/07/service-monitor-1.png" alt="Ремонт мониторов и телевизоров" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">SRV-04</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv4_title">Ремонт мониторов и телевизоров</h3>
+              <p class="service-card__text" data-i18n="srv4_desc">
+                Профессиональный ремонт мониторов, Smart TV и коммерческих панелей. Восстановление блоков питания, Main-плат, T-Con и LED-подсветки экрана.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv4_tag1">Замена LED-подсветки</li>
+                <li data-i18n="srv4_tag2">Ремонт плат питания</li>
+                <li data-i18n="srv4_tag3">Контроллеры изображения</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="monitors" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="monitors" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 5: Audio Equipment (Bang & Olufsen, Sony, Samsung) -->
+          <article class="service-card" data-service-id="audio">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/service-audio.png" alt="Ремонт аудиотехники" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">SRV-05</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv5_title">Ремонт аудиотехники и систем High-End</h3>
+              <p class="service-card__text" data-i18n="srv5_desc">
+                Компонентный ремонт премиальной акустики Bang &amp; Olufsen, усилителей, ресиверов и саундбаров Sony, Samsung. Устранение искажений звука и ремонт каскадов усиления.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv5_tag1">Акустика Bang &amp; Olufsen</li>
+                <li data-i18n="srv5_tag2">Усилители и саундбары</li>
+                <li data-i18n="srv5_tag3">Цифровые ЦАП / платы</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="audio" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="audio" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 6: Corporate Service & Original Parts (B2B) -->
+          <article class="service-card service-card--featured" data-service-id="b2b">
+            <div class="service-card__media">
+              <img src="https://victory121.kz/wp-content/uploads/2026/08/about-service-center2.png" alt="Корпоративное обслуживание и поставка запчастей" width="400" height="220" loading="lazy">
+              <span class="service-card__code" translate="no">B2B-06</span>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" data-i18n="srv6_title">Корпоративное обслуживание и поставка запчастей</h3>
+              <p class="service-card__text" data-i18n="srv6_desc">
+                Комплексное обслуживание парка оргтехники компаний по договору (ЭДО, полная бухгалтерская отчётность, НДС) и заказ оригинальных комплектующих от заводов.
+              </p>
+              <ul class="service-card__tags" aria-label="Примеры работ">
+                <li data-i18n="srv6_tag1">Работа по договору B2B</li>
+                <li data-i18n="srv6_tag2">Оригинальные ЗИП</li>
+                <li data-i18n="srv6_tag3">Регулярное ТО офисов</li>
+              </ul>
+              <div class="service-card__actions">
+                <button type="button" class="btn btn--ghost btn--sm" data-open-service="b2b" data-i18n="srv_more_btn">Что чиним и сроки</button>
+                <button type="button" class="btn btn--primary-soft btn--sm" data-pick-service="b2b" data-i18n="srv_order_btn">Оставить заявку</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Quick Diagnostic & WhatsApp Calculator Section -->
+    <section class="section calc-section" id="calculator" aria-labelledby="calc-heading">
+      <div class="container calc-grid">
+        <div class="calc-info">
+          <span class="section-kicker" data-i18n="calc_kicker">Онлайн-консультация с инженером</span>
+          <h2 class="section-title" id="calc-heading" data-i18n="calc_title">Экспресс-оценка ремонта за 30 секунд</h2>
+          <p class="calc-info__lead" data-i18n="calc_desc">
+            Выберите вашу технику, бренд и симптом неисправности (или опишите свою проблему вручную) — сайт сформирует готовую заявку и отправит её напрямую инженеру Victory 121 в WhatsApp.
+          </p>
+
+          <div class="calc-steps-preview">
+            <div class="calc-preview-item">
+              <span class="calc-preview-item__badge" translate="no">01</span>
+              <div>
+                <strong data-i18n="wf2_title">Инженерная диагностика</strong>
+                <p data-i18n="wf2_desc">Проводим аппаратную проверку по сервисным мануалам производителя, выявляем точную причину поломки и проверяем ресурс смежных узлов.</p>
+              </div>
+            </div>
+            <div class="calc-preview-item">
+              <span class="calc-preview-item__badge" translate="no">02</span>
+              <div>
+                <strong data-i18n="wf3_title">Согласование цены и сроков</strong>
+                <p data-i18n="wf3_desc">Связываемся с вами, подробно объясняем результат диагностики, точную стоимость работ и оригинальных запчастей. Приступаем к ремонту только после вашего согласия.</p>
+              </div>
+            </div>
+            <div class="calc-preview-item">
+              <span class="calc-preview-item__badge" translate="no">03</span>
+              <div>
+                <strong data-i18n="wf4_title">Ремонт, тест-контроль и гарантия</strong>
+                <p data-i18n="wf4_desc">Выполняем ремонт, тестируем технику под нагрузкой, демонстрируем исправную работу при выдаче и предоставляем официальный гарантийный талон.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="diag-console">
+          <div class="diag-console__header">
+            <div class="diag-console__title-wrap">
+              <span class="diag-console__code" translate="no">VICTORY-121 // EXPRESS</span>
+              <h3 class="diag-console__title" data-i18n="calc_box_title">Конструктор заявки в WhatsApp</h3>
+            </div>
+            <span class="diag-console__badge" data-i18n="calc_badge">Ответ за 10 мин</span>
+          </div>
+
+          <form class="diag-form" id="whatsapp-quiz-form" novalidate>
+            <!-- Step 1: Device Category -->
+            <fieldset class="diag-fieldset">
+              <legend class="diag-legend">
+                <span class="diag-step-num">1</span>
+                <span data-i18n="calc_step1">Что нужно отремонтировать?</span>
+              </legend>
+              <div class="chip-grid" id="device-category-chips" role="radiogroup" aria-label="Категория техники">
+                <button type="button" class="chip is-selected" data-device="printers" aria-pressed="true" data-i18n="cat_printers">Принтер / МФУ</button>
+                <button type="button" class="chip" data-device="cameras" aria-pressed="false" data-i18n="cat_cameras">Фото / Видеокамера</button>
+                <button type="button" class="chip" data-device="lenses" aria-pressed="false" data-i18n="cat_lenses">Объектив / Оптика</button>
+                <button type="button" class="chip" data-device="monitors" aria-pressed="false" data-i18n="cat_monitors">Монитор / ТВ</button>
+                <button type="button" class="chip" data-device="audio" aria-pressed="false" data-i18n="cat_audio">Аудиотехника</button>
+                <button type="button" class="chip" data-device="b2b" aria-pressed="false" data-i18n="cat_b2b">Офисный парк (B2B)</button>
+              </div>
+            </fieldset>
+
+            <!-- Step 2: Brand (8 Official Brands + Other) -->
+            <fieldset class="diag-fieldset">
+              <legend class="diag-legend">
+                <span class="diag-step-num">2</span>
+                <span data-i18n="calc_step2">Производитель</span>
+              </legend>
+              <div class="chip-grid chip-grid--brands" id="brand-chips" role="radiogroup" aria-label="Бренд техники">
+                <button type="button" class="chip chip--sm is-selected" data-brand="Canon" aria-pressed="true" translate="no">Canon</button>
+                <button type="button" class="chip chip--sm" data-brand="Epson" aria-pressed="false" translate="no">Epson</button>
+                <button type="button" class="chip chip--sm" data-brand="Sony" aria-pressed="false" translate="no">SONY</button>
+                <button type="button" class="chip chip--sm" data-brand="Nikon" aria-pressed="false" translate="no">Nikon</button>
+                <button type="button" class="chip chip--sm" data-brand="Samsung" aria-pressed="false" translate="no">Samsung</button>
+                <button type="button" class="chip chip--sm" data-brand="Kyocera" aria-pressed="false" translate="no">Kyocera</button>
+                <button type="button" class="chip chip--sm" data-brand="Катюша" aria-pressed="false">Катюша</button>
+                <button type="button" class="chip chip--sm" data-brand="Bang & Olufsen" aria-pressed="false" translate="no">Bang &amp; Olufsen</button>
+                <button type="button" class="chip chip--sm" data-brand="Другой бренд" aria-pressed="false" data-i18n="brand_other">Другой</button>
+              </div>
+            </fieldset>
+
+            <!-- Step 3: Dynamic Symptom Chips + "✎ Другое (описать свою ошибку)" -->
+            <fieldset class="diag-fieldset">
+              <legend class="diag-legend">
+                <span class="diag-step-num">3</span>
+                <span data-i18n="calc_step3">Симптом или задача</span>
+              </legend>
+              <div class="chip-grid" id="symptom-chips" role="group" aria-label="Частые симптомы">
+                <!-- Populated dynamically by app.js, including the "Другое" button -->
+              </div>
+
+              <!-- Custom Symptom Description Box (Shown when "Другое" is selected) -->
+              <div class="custom-symptom-box" id="custom-symptom-box" hidden>
+                <label for="custom-symptom-input" class="custom-symptom-label" data-i18n="calc_custom_symptom_label">
+                  Опишите вашу проблему или код ошибки своими словами:
+                </label>
+                <textarea
+                  id="custom-symptom-input"
+                  name="customSymptom"
+                  class="diag-textarea"
+                  rows="2"
+                  maxlength="300"
+                  placeholder="Например: выдаёт ошибку на экране, не захватывает плотную бумагу или хрипит динамик…"
+                  data-i18n-placeholder="calc_custom_symptom_placeholder"
+                ></textarea>
+              </div>
+            </fieldset>
+
+            <!-- Step 4: Optional Model / Details Input -->
+            <div class="diag-input-group">
+              <label for="device-model-input" class="diag-label" data-i18n="calc_model_label">Модель устройства (необязательно)</label>
+              <input
+                type="text"
+                id="device-model-input"
+                name="deviceModel"
+                class="diag-input"
+                maxlength="100"
+                autocomplete="off"
+                placeholder="Например: Epson L8050, Canon EOS R6 или Beosound…"
+                data-i18n-placeholder="calc_model_placeholder"
+              >
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full btn--lg diag-submit">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+              <span data-i18n="calc_submit_btn">Отправить заявку в WhatsApp</span>
+            </button>
+
+            <p class="diag-security-note" data-i18n="calc_security_note">
+              🔒 Безопасная форма: мы не собираем и не храним ваши персональные данные на сайте. Заявка открывается напрямую в официальном приложении WhatsApp.
+            </p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About Victory 121 & Engineering Standards Section -->
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-main">
+          <span class="section-kicker" data-i18n="about_kicker">Почему выбирают Victory 121</span>
+          <h2 class="section-title" id="about-heading" data-i18n="about_title">17 лет отвечаем за безупречную работу вашей техники</h2>
+          <p class="about-lead" data-i18n="about_p1">
+            Сервисный центр Victory 121 — это команда профильных инженеров в Алматы, специализирующихся на гарантийном и постгарантийном ремонте печатной, оптической, фото-, видео- и премиальной аудиотехники.
+          </p>
+          <p class="about-body" data-i18n="about_p2">
+            В отличие от посредников и универсальных мастерских, мы работаем напрямую по техническим регламентам заводов-изготовителей. Это позволяет восстанавливать сложные оптические блоки объективов, высокоскоростные затворы камер, акустику High-End и печатающие тракты корпоративных МФУ без потери заводских характеристик.
+          </p>
+
+          <ul class="about-checklist">
+            <li>
+              <strong data-i18n="about_li1_title">Работа строго по стандартам производителей:</strong>
+              <span data-i18n="about_li1_desc">используем сервисное ПО, динамометрический инструмент и калибровочные стенды.</span>
+            </li>
+            <li>
+              <strong data-i18n="about_li2_title">Оригинальные комплектующие:</strong>
+              <span data-i18n="about_li2_desc">прямой доступ к каталогам парт-номеров Canon, Epson, Sony, Nikon, Samsung, Kyocera, Катюша и Bang &amp; Olufsen.</span>
+            </li>
+            <li>
+              <strong data-i18n="about_li3_title">Честная диагностика без навязывания услуг:</strong>
+              <span data-i18n="about_li3_desc">всегда предлагаем оптимальное по бюджету и надёжности техническое решение.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-cards">
+          <div class="stat-box">
+            <span class="stat-box__num" translate="no">17</span>
+            <span class="stat-box__label" data-i18n="stat_1_label">Лет опыта работы в сфере профессионального сервиса (с 2009 года)</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-box__num" translate="no">8</span>
+            <span class="stat-box__label" data-i18n="stat_2_label">Официальных авторизаций от ведущих мировых производителей</span>
+          </div>
+          <div class="stat-box stat-box--wide">
+            <div class="stat-box__header">
+              <span class="stat-box__badge" data-i18n="b2b_badge">Для частных и корпоративных клиентов</span>
+            </div>
+            <p class="stat-box__text" data-i18n="stat_3_label">
+              Обслуживаем как индивидуальных фотографов, видеографов и ценителей премиального звука, так и крупные офисы, банки, фотостудии и государственные организации по договору.
+            </p>
+            <a href="#calculator" class="btn btn--outline btn--sm" data-i18n="about_cta_btn">Рассчитать стоимость ремонта</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts & Location Hub -->
+    <section class="section contacts-section" id="contacts" aria-labelledby="contacts-heading">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker" data-i18n="contacts_kicker">Как нас найти</span>
+            <h2 class="section-title" id="contacts-heading" data-i18n="contacts_title">Контакты и схема проезда в Алматы</h2>
+          </div>
+          <p class="section-desc" data-i18n="contacts_desc">
+            Ждём вас в будние дни с 09:00 до 18:00. Перед визитом вы можете написать в WhatsApp или позвонить для быстрой консультации.
+          </p>
+        </div>
+
+        <div class="contacts-grid">
+          <div class="contacts-card">
+            <div class="contact-block">
+              <span class="contact-block__label" data-i18n="cnt_address_label">Адрес сервисного центра</span>
+              <p class="contact-block__value" data-i18n="cnt_address_val">г. Алматы, ул. Розыбакиева, 275А, цокольный этаж</p>
+              <div class="contact-block__inline-actions">
+                <button type="button" class="copy-btn" id="copy-address-btn" data-copy-text="г. Алматы, ул. Розыбакиева, 275А">
+                  <span id="copy-address-label" data-i18n="copy_addr_btn">Скопировать адрес</span>
+                </button>
+                <a href="https://2gis.kz/almaty/directions/points/%7C76.89399%2C43.198657%3B9429940000895218" target="_blank" rel="noopener noreferrer" class="route-link" data-i18n="open_2gis_link">Открыть в 2ГИС ↗</a>
+              </div>
+            </div>
+
+            <div class="contact-block">
+              <span class="contact-block__label" data-i18n="cnt_phones_label">Телефоны и WhatsApp</span>
+              <div class="contact-phones">
+                <a href="tel:+77079980566" class="contact-phone-link" translate="no">
+                  <span>+7 (707) 998-05-66</span>
+                  <span class="contact-phone-tag" data-i18n="tag_mobile_wa">Мобильный / WhatsApp</span>
+                </a>
+                <a href="tel:+77273022613" class="contact-phone-link" translate="no">
+                  <span>+7 (727) 302-26-13</span>
+                  <span class="contact-phone-tag" data-i18n="tag_city_phone">Городской многоканальный</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-block contact-block--split">
+              <div>
+                <span class="contact-block__label" data-i18n="cnt_hours_label">График работы</span>
+                <p class="contact-block__subval" data-i18n="cnt_hours_val">Пн–Пт: 09:00 – 18:00</p>
+                <p class="contact-block__muted" data-i18n="cnt_hours_weekend">Сб–Вс: выходной</p>
+              </div>
+              <div>
+                <span class="contact-block__label" data-i18n="cnt_email_label">Электронная почта</span>
+                <a href="mailto:support@victory121.kz" class="contact-email-link" translate="no">support@victory121.kz</a>
+                <a href="https://www.instagram.com/victory121.kz/" target="_blank" rel="noopener noreferrer" class="contact-social-link" translate="no">Instagram: @victory121.kz ↗</a>
+              </div>
+            </div>
+
+            <div class="contacts-card__buttons">
+              <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+                <span data-i18n="hero_cta_wa">Написать в WhatsApp</span>
+              </a>
+              <a href="https://2gis.kz/almaty/directions/points/%7C76.89399%2C43.198657%3B9429940000895218" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+                <span data-i18n="contact_2gis_btn">Построить маршрут в 2ГИС</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="map-card">
+            <div class="map-card__bar">
+              <span class="map-card__coords" translate="no">GPS: 43.198657° N, 76.893990° E</span>
+              <span class="map-card__city" data-i18n="map_city_tag">Алматы, Бостандыкский район</span>
+            </div>
+            <div class="map-frame-wrap">
+              <iframe
+                title="Карта проезда в сервисный центр Victory 121 — Алматы, ул. Розыбакиева, 275А"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=76.8865%2C43.1945%2C76.9015%2C43.2028&amp;layer=mapnik&amp;marker=43.198657%2C76.89399"
+                loading="lazy"
+                sandbox="allow-scripts allow-same-origin"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Service Detail Modal (<dialog>) -->
+  <dialog class="service-modal" id="service-modal" aria-labelledby="modal-service-title">
+    <div class="service-modal__panel">
+      <div class="service-modal__header">
+        <div>
+          <span class="service-modal__code" id="modal-service-code" translate="no">SRV-01</span>
+          <h2 class="service-modal__title" id="modal-service-title">Ремонт техники</h2>
+        </div>
+        <button type="button" class="icon-close-btn" id="close-service-modal" aria-label="Закрыть окно">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <p class="service-modal__desc" id="modal-service-desc"></p>
+
+      <div class="service-modal__cols">
+        <div class="service-modal__box">
+          <h3 class="service-modal__subtitle" data-i18n="modal_symptoms_title">Частые симптомы поломок</h3>
+          <ul class="service-modal__list" id="modal-service-symptoms"></ul>
+        </div>
+        <div class="service-modal__box">
+          <h3 class="service-modal__subtitle" data-i18n="modal_works_title">Выполняемые работы</h3>
+          <ul class="service-modal__list" id="modal-service-works"></ul>
+        </div>
+      </div>
+
+      <div class="service-modal__meta" id="modal-service-meta"></div>
+
+      <div class="service-modal__footer">
+        <button type="button" class="btn btn--primary" id="modal-select-service-btn" data-i18n="modal_calc_btn">Оформить заявку по этому направлению</button>
+        <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp" id="modal-wa-direct-link" data-i18n="hero_cta_wa">Написать в WhatsApp</a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a href="#top" class="brand-logo v121-logo" aria-label="Victory 121 — Наверх">
+          <img
+            src="./assets/victory-globe.png"
+            alt=""
+            class="v121-logo__globe"
+            width="42"
+            height="36"
+            loading="lazy"
+          >
+          <span class="v121-logo__wordmark" translate="no">
+            <span class="v121-logo__victory">Victory</span><span class="v121-logo__sep" aria-hidden="true"></span><span class="v121-logo__num">121</span>
+          </span>
+        </a>
+        <p class="site-footer__summary" data-i18n="footer_summary">
+          Авторизованный сервисный центр по ремонту и обслуживанию печатной техники, фотоаппаратов, объективов, мониторов и премиальных аудиосистем в Алматы.
+        </p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Навигация в подвале">
+        <h3 class="site-footer__heading" data-i18n="footer_nav_title">Разделы</h3>
+        <a href="#brands" data-i18n="nav_brands">Бренды</a>
+        <a href="#services" data-i18n="nav_services">Услуги</a>
+        <a href="#calculator" data-i18n="nav_calc">Оценка ремонта</a>
+        <a href="#about" data-i18n="nav_about">О центре</a>
+        <a href="#contacts" data-i18n="nav_contacts">Контакты</a>
+      </nav>
+
+      <div class="site-footer__contacts">
+        <h3 class="site-footer__heading" data-i18n="footer_cnt_title">Связь и соцсети</h3>
+        <p data-i18n="cnt_address_val">г. Алматы, ул. Розыбакиева, 275А, цокольный этаж</p>
+        <p translate="no"><a href="tel:+77079980566">+7 (707) 998-05-66</a> · <a href="tel:+77273022613">+7 (727) 302-26-13</a></p>
+        <div class="site-footer__socials" translate="no">
+          <a href="https://2gis.kz/almaty/directions/points/%7C76.89399%2C43.198657%3B9429940000895218" target="_blank" rel="noopener noreferrer">2GIS</a>
+          <a href="https://www.instagram.com/victory121.kz/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-footer__bottom">
+      <p data-i18n="footer_copy">© 2009–2026 ТОО «Victory 121». Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Sticky Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Быстрая связь с сервисом">
+    <a href="tel:+77079980566" class="mobile-bottom-bar__btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      <span data-i18n="mob_call">Позвонить</span>
+    </a>
+    <a href="https://wa.me/77079980566" target="_blank" rel="noopener noreferrer" class="mobile-bottom-bar__btn mobile-bottom-bar__btn--wa">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://2gis.kz/almaty/directions/points/%7C76.89399%2C43.198657%3B9429940000895218" target="_blank" rel="noopener noreferrer" class="mobile-bottom-bar__btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </svg>
+      <span data-i18n="mob_2gis">2ГИС</span>
+    </a>
+  </nav>
+
+  <!-- Live Polite Toast for User Feedback -->
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

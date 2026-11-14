@@ -1,0 +1,8 @@
+# Exclude agent skills & rules from the project codebase graph
+.agent/
+.agents/
+.git/
+graphify-out/
+AGENTS.md
+GEMINI.md
+CLAUDE.md
