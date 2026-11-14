@@ -31,3 +31,13 @@ graphify update .
 graphify export html
 graphify export wiki
 ```
+
+## Step 4: PS.kz / Plesk Hosting & Auto-Deploy (`victory121.kz`)
+- **Hosting Server:** `srv-plesk14.ps.kz` (`195.210.46.14`), Plesk panel at `https://srv-plesk14.ps.kz:8443` (accessed via `https://console.ps.kz/plesk/shared/17766`).
+- **Directories on Server:**
+  - `/victory121-site` — Connected to `https://github.com/EvgeniyZV/victory121-site.git` (`main` branch) via Plesk Git with automatic webhook deployment on every `git push`.
+  - `/new.victory121.kz` — Previous WordPress production directory (currently set as `Document Root` until the user commands switching `Document Root` to `/victory121-site`).
+  - `/httpdocs` — Legacy 2012–2024 archive directory (keep intact).
+- **How to Switch Live Domain When Requested by User:**
+  - In Plesk (`victory121.kz` -> **Настройки хостинга** / Hosting Settings), change **Корневая папка (`Document Root`)** from `new.victory121.kz` to `victory121-site` and click **OK / Применить**.
+

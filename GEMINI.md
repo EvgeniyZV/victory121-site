@@ -18,3 +18,13 @@
 - **Логотип Victory 121 (Вариант 1):** `Manrope ExtraBold` (`Victory` чисто-белый `#FFFFFF`, `121` — контрастный Ice Cyan `#38BDF8` с мягким свечением) + 3D-глобус `./assets/victory-globe.png`.
 - **Логотипы вендоров (`./assets/brands/`):** Canon, Epson, SONY, Nikon, Samsung, Kyocera, Катюша, Bang & Olufsen — строго в оригинальных цветах брендбуков на белых плашках `.vendor-plaque` (`76px`).
 - **Безопасность:** без `innerHTML` (только `replaceChildren()` и `textContent`), санитизация `sanitizeUserText()`, строгий `Content-Security-Policy` в `index.html` и `.htaccess`.
+
+## 3. Хостинг PS.kz / Plesk и автодеплой (`victory121.kz`)
+- **Сервер Plesk:** `srv-plesk14.ps.kz` (`https://srv-plesk14.ps.kz:8443`, вход через `https://console.ps.kz/plesk/shared/17766`).
+- **Структура папок на сервере:**
+  - `/victory121-site` — наш новый сайт, привязанный через модуль **Plesk Git** к репозиторию `https://github.com/EvgeniyZV/victory121-site.git` (ветка `main`). Обновляется автоматически при каждом `git push` через Webhook.
+  - `/new.victory121.kz` — текущая активная папка (`Document Root`) старого сайта на WordPress (сохранена без изменений).
+  - `/httpdocs` — архив старого сайта 2012–2024 гг. (сохранён без изменений).
+- **Переключение основного домена по команде пользователя:**
+  - В панели Plesk (`victory121.kz` → **Настройки хостинга**) изменить поле **Корневая папка (`Document Root`)** с `new.victory121.kz` на `victory121-site` и нажать **ОК**.
+

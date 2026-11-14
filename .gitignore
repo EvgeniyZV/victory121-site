@@ -13,3 +13,11 @@ __pycache__/
 graphify-out/.graphify_*
 graphify-out/.rebuild.lock
 
+# Secrets and hosting credentials (NEVER commit to Git)
+.env
+.env.*
+*.pem
+*.key
+deploy-config.json
+
+
