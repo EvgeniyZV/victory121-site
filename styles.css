@@ -2328,6 +2328,21 @@ p, li {
   font-size: 0.78rem;
 }
 
+.header-phone,
+.header-wa {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+html[lang="kk"] .desktop-nav {
+  gap: 16px;
+}
+
+html[lang="kk"] .desktop-nav__link {
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
 .contact-landmark {
   display: flex;
   align-items: flex-start;
