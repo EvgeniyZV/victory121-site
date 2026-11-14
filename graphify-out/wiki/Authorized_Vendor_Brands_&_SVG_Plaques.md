@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Authorized 8 Brands Grid (#brands)** (11 connections) — `index.html`
+- **Authorized 8 Brands Grid & Official Vendor Links (#brands)** (12 connections) — `index.html`
 - **syncBrandUI()** (3 connections) — `app.js`
 - **Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg)** (1 connections) — `assets/brands/bang-olufsen.svg`
 - **Canon Official Red Vector Logo (canon.svg)** (1 connections) — `assets/brands/canon.svg`
@@ -17,9 +17,9 @@
 
 ## Relationships
 
+- [Theme 3 Titanium Slate Design System](Theme_3_Titanium_Slate_Design_System.md) (2 shared connections)
 - [Hero Circuit Animation & Equipment Carousel](Hero_Circuit_Animation_&_Equipment_Carousel.md) (1 shared connections)
 - [WhatsApp Diagnostic Calculator & State](WhatsApp_Diagnostic_Calculator_&_State.md) (1 shared connections)
-- [Theme 3 Titanium Slate Design System](Theme_3_Titanium_Slate_Design_System.md) (1 shared connections)
 - [Security Hardening (CSP, HSTS & XSS Guard)](Security_Hardening_CSP,_HSTS_&_XSS_Guard.md) (1 shared connections)
 
 ## Source Files
@@ -37,7 +37,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

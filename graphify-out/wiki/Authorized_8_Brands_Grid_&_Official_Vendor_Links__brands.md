@@ -1,6 +1,6 @@
-# Authorized 8 Brands Grid (#brands)
+# Authorized 8 Brands Grid & Official Vendor Links (#brands)
 
-> God node · 11 connections · `index.html`
+> God node · 12 connections · `index.html`
 
 **Community:** [Authorized Vendor Brands & SVG Plaques](Authorized_Vendor_Brands_&_SVG_Plaques.md)
 
@@ -8,6 +8,7 @@
 
 ### references
 - [index.html (Main Page Markup)](index.html_Main_Page_Markup.md) `EXTRACTED`
+- Variant 3: Royal Sapphire & Imperial Gold Accents (--gold-*) `EXTRACTED`
 - syncBrandUI() `EXTRACTED`
 - Vendor White Plaque & Adapted SVG Sizing (.vendor-plaque) `EXTRACTED`
 - Bang & Olufsen Official Monogram + Wordmark (bang-olufsen.svg) `EXTRACTED`
