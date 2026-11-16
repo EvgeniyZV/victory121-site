@@ -21,3 +21,7 @@ graphify-out/.rebuild.lock
 deploy-config.json
 
 
+
+# Graphify HTML visualisations: local only (nginx serves .html directly, .htaccess cannot hide them on the live site)
+graphify-out/graph.html
+graphify-out/GRAPH_TREE.html

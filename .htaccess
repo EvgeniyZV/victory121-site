@@ -8,6 +8,14 @@ Options -Indexes
   Require all denied
 </FilesMatch>
 
+# 1a. Закрытие служебных файлов и папок проекта (не являются частью сайта) — ответ 404:
+#     - любые файлы/папки, начинающиеся с точки (.agent/, .agents/, .git/ ...), кроме .well-known/ (нужна для SSL);
+#     - папка graphify-out/ (граф знаний для разработчиков);
+#     - любые документы *.md (AGENTS.md, GEMINI.md, README.md и т. п.).
+<IfModule mod_alias.c>
+  RedirectMatch 404 "(?i)(?:^|/)(?:\.(?!well-known(?:/|$))|graphify-out(?:/|$))|\.md$"
+</IfModule>
+
 # 2. Принудительное перенаправление на защищённый протокол HTTPS
 <IfModule mod_rewrite.c>
   RewriteEngine On
