@@ -925,7 +925,6 @@
     state.activeModalService = serviceId;
 
     const lang = state.lang;
-    const codeEl = document.getElementById('modal-service-code');
     const titleEl = document.getElementById('modal-service-title');
     const descEl = document.getElementById('modal-service-desc');
     const symptomsList = document.getElementById('modal-service-symptoms');
@@ -933,7 +932,6 @@
     const metaEl = document.getElementById('modal-service-meta');
     const waDirectLink = document.getElementById('modal-wa-direct-link');
 
-    if (codeEl) codeEl.textContent = data.code;
     if (titleEl) titleEl.textContent = data.title[lang] || data.title.ru;
     if (descEl) descEl.textContent = data.desc[lang] || data.desc.ru;
     if (metaEl) metaEl.textContent = data.meta[lang] || data.meta.ru;
